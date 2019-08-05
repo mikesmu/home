@@ -1,0 +1,41 @@
+{
+	"name": "nordico",
+	"displayName": "Nordico",
+	"description": "Based on Nord with some customizations",
+	"version": "1.0.8",
+	"engines": {
+		"vscode": "^1.31.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nordico",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Nordico.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"node-fetch": "~2.3.0",
+		"lodash": "~4.17.11"
+	},
+	"publisher": "madprops",
+	"keywords": [
+		"theme",
+		"dark",
+		"nord"
+	],
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/madprops/Nordico.git"
+	},
+	"__metadata": {
+		"id": "0949e77d-7bce-48e7-bcac-271e8b504d08",
+		"publisherId": "9dfac037-0096-4d0a-88f3-c4c53a40b379",
+		"publisherDisplayName": "madprops"
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"name": "theme-iris",
+	"displayName": "iris",
+	"description": "The Iris theme for VS Code",
+	"version": "3.0.0",
+	"publisher": "hoisel",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"theme",
+		"vscode"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Iris",
+				"uiTheme": "vs-dark",
+				"path": "./themes/iris.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/hoisel/theme-iris/issues"
+	},
+	"homepage": "https://github.com/hoisel/theme-iris",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hoisel/theme-iris"
+	},
+	"__metadata": {
+		"id": "85497a13-ad3d-49b4-94c6-537af097a14b",
+		"publisherId": "861f5188-8458-4375-906f-be056f0de098",
+		"publisherDisplayName": "hoisel"
+	}
+}
